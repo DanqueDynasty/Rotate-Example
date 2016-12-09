@@ -41,7 +41,7 @@ void MainWindow::initGUI()
 
     defaultRotChkBx = new QRadioButton("Default", this);
     defaultRotChkBx->setChecked(true);
-    quatRotChkBx = new QRadioButton("Rotate", this);
+    quatRotChkBx = new QRadioButton("Quaternion", this);
 
     auto resetBtn = new QPushButton("Reset", this);
 
